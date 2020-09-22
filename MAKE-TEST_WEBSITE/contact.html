@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="design.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<title>Contect-page</title>
+</head>
+<!--------------------------------------------------------Style sheet area--------------------------------------------------->
+ <style >  
+body {
+    background:url('https://images.pexels.com/photos/1903702/pexels-photo-1903702.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition:all .5s;
+
+}
+  
+ 	.it a {
+ 		padding-left:200px;
+ 		font-style: italic;
+ 		font-size:35px;
+ 		font-weight: bold;
+ 		color: white;
+ 		text-shadow: -19px 12px 1px black;
+ 	}
+ 	.it a i{
+         margin-right: 17px;
+         margin-top: 40px;
+ 	}
+ 	#main{
+ 		height:200px;
+ 		width:380px;
+ 		margin-top:-20px;
+ 		margin-left:50%;
+        padding: 20px;
+ 		background-color:#7C07F2;
+ 		border-radius: 20px ;
+ 		border-color: solid black;
+ 		box-shadow: -20px 20px #400130;
+ 	}
+ 	#c{
+       height: 20px;
+    width: 300px;
+    margin-top: -30px;
+      margin-right:20px;
+      padding-left: 10px;
+      margin-bottom: 0px;
+ 	}
+ 	#icon a i{
+ 		 
+ 		 font-size: 24px;
+         margin-right: 16px;
+
+    	}
+ 	#s1 {
+        align-items: center;
+ 		padding-left: 270px;
+ 		padding-bottom: 40px;
+ 	}
+ 	 #s2 i{
+ 		padding-left: 16px;
+
+ 	}
+ 	#f1{
+        margin-top: -170px;
+ 		font-size: 27px;
+ 		color: white;
+ 		padding-left: 20px;
+ 		padding-top: 20px;
+
+ 	}
+     #f2{
+        
+     	font-size: 29px;
+     	color:black;
+     	padding-left: 40px;
+     }
+     #cpy{
+        margin-top: 180px;
+     	padding-left:1001px;
+     	color: white;
+     	font-size: 19px;
+     	text-shadow: -10px 10px 2px black;
+     }
+#fo1{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+ </style>
+
+<!--------------------------------------------------------Html work area------------------------------------------------------>
+<body>
+
+
+        <input type="checkbox" id = "check">
+    <label for="check">
+         <i class="fas fa-bars" id="bar"></i>
+         <i class="fas fa-times" id="cancel"></i>
+    </label>
+
+    <div class="side">
+      <header>My App</header>
+      <ul>
+        <li><a href="index-homepage.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="index_student-login.html"><i class="fas fa-file-import"></i>Creat test</a></li>
+        <li><a href="result.php"><i class="fas fa-chart-pie"></i>Status</a></li>
+        <li><a href="#"><i class="fas fa-user"></i>Account</a></li>
+        <li><a href="index-about.html"><i class="fas fa-question-circle"></i>About</a></li>
+        <li><a href="contect.html"><i class="fas fa-envelope"></i>Contact</a></li>
+      </ul>
+      
+    </div>
+
+	<div class="it">
+     <a ><i class="fas fa-user"></i>CONTECT ME</a>
+     </div>
+     <!-----------------------------------------------------contect box----------------------------------------------------->
+    <form>
+        <div id="main">
+     		<div id="icon">
+     		   <a><i class="fas fa-user-circle"></i><strong>USER-NAME :</strong></a><input type="text" name="name" requried /><br><br>
+     		   <a><i class="fas fa-mobile" aria-hidden="true"></i><strong>Phone.NO  :</strong></a><input type="text" name="name"  requried /><br><br>
+     		   <a><i class="fas fa-envelope"></i><strong>E-mail :</strong></a><input type="email" name="name" placeholder="ex@gmail.com" requried /><br><br>
+              
+     	    </div>
+             <hr >    
+               <strong>Feed Back:</strong><br><br>
+               <textarea placeholder="Any massage..."  id="c"></textarea>
+              <div id ="s2">
+              <a id="s1"><i class="fas fa-paper-plane"><input type="submit" name="name" value="send" id="s" ></i></a></div>
+        </div>
+    </form> 
+
+<!-------------------------------------------------follow me on-------------------------------------------------------------->
+    <div id="fo1">
+    	 <a href="https://www.facebook.com/" target="_blank" id="f2"><i class="fab fa-facebook-f"></i></a>
+    	 <a href="https://twitter.com/login" id="f2"><i class="fab fa-twitter"></i></a>
+    	 <a href="https://www.instagram.com/?hl=ta" id="f2"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <p id="cpy">All copy rights reserved on @2020</p>
+   
+<!-----------------------------------------------------EOF-------------------------------------------------------------------->     
+</body>
+</html>

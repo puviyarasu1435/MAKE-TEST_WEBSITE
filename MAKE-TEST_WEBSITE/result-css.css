@@ -1,0 +1,132 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration:none;
+}
+.side {
+  margin-top: 140px;
+  position: fixed;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color:#042331;
+  transition:all .6s ease;
+}
+.side header{
+  font-size:22px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: #063146;
+  user-select: none;
+
+}
+.side ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+    font-size:20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing:border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+    transition: .2s;
+}
+ul li:hover a {
+  padding-left:55px;
+
+}
+.side ul a i{
+  margin-right: 16px;
+}
+#check{
+  display: none;
+
+}
+label #bar,label #cancel{
+
+  position: absolute;
+  cursor: pointer;
+  background: #042331;
+  border-radius:5px;
+
+}
+
+label #bar{
+  left: 40px;
+  top: 25px;
+  border-right: 10px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  transition: all .5s;
+
+}
+label #cancel{
+  z-index: 1111;
+  left: -195px;
+  top:0px;
+  font-size: 20px;
+  color:white;
+  padding:4px 9px;
+  transition: all .5s ease;
+}
+#check:checked ~ .side{
+  left:0;
+}
+#check:checked ~ label #bar{
+  left:250;
+  opacity:0;
+  pointer-events: none;
+}
+#check:checked ~ label #cancel{
+  left: 195px;
+}
+#check:checked ~  section{
+  margin-left:150px;
+}
+  body{
+    background-image: url('https://images.pexels.com/photos/583846/pexels-photo-583846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') ;
+    background-size: cover;
+  }
+   p.w{
+      font-family: inherit;
+      font-size: 35px;
+      color: white;
+      text-align: center;
+      margin-left: 50px;
+      text-shadow: -10px 10px 2px black;
+
+ }
+ .fa {
+    margin-left: 500px;
+    color:white;
+    margin-top: 200px;
+    text-shadow: -10px 10px 2px black;
+ }
+#b{
+  margin-top: -130px;
+  font-size: 50px;
+}
+#q{
+    height:500px;
+    width: 300px;
+    background:rgba(250,250,250,.3);
+    margin-left: 480px;
+    margin-top: 20px;
+
+}
+
+table{
+  width: 4px;
+   margin-top:-500px;
+   text-align: center;
+   margin-left: 480px;
+   background-color:#DBDBDB;
+   color:black;
+
+}
+</style>

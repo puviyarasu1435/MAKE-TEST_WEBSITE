@@ -1,0 +1,16 @@
+body{
+	background-image: url('https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-size: cover;
+}
+.work{
+	background-color: rgba(255,255,255,50%);
+	text-align: center;
+	padding: 20px;
+}
+.wo{
+	background-color: rgba(200,200,255,50%);
+}
+.anwser{
+	width:1000px;
+	height: 300px;
+}

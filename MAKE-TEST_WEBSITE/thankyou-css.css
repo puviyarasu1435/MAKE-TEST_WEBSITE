@@ -1,0 +1,10 @@
+body{
+	background-image: url('https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+   background-size: cover;
+}
+#work{
+	margin-top: 20%;
+	margin-left: 32%;
+	font-size: 40px ;
+	color: white;
+}
